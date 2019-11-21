@@ -1,0 +1,14 @@
+server:
+  servlet:
+    context-path: /hys
+hystrix:
+  command:
+    default:
+      execution:
+        isolation:
+          thread:
+            timeoutInMilliseconds: 2000
+management:
+  server:
+    servlet:
+      context-path: /
