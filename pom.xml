@@ -71,9 +71,19 @@
             <artifactId>spring-cloud-starter-hystrix-dashboard</artifactId>
         </dependency>
         -->
+
+        <!-- spring高版本之后hystrix归于netflix之下 -->
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-netflix-hystrix</artifactId>
+        </dependency>
+
+
+        <!--链路监控-->
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-zipkin</artifactId>
+            <version>2.1.2.RELEASE</version>
         </dependency>
 
 

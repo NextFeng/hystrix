@@ -12,3 +12,14 @@ management:
   server:
     servlet:
       context-path: /
+logging:
+  level:
+    com.lcdz.hystrix.web: debug
+spring:
+  zipkin:
+    base-url: http://192.168.0.101:9411/
+  sleuth:
+    sampler:
+      probability: 1
+  application:
+    name: sys
